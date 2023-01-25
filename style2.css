@@ -1,0 +1,231 @@
+/*FOR MOBILE PHONES*/
+
+@media screen and (max-width: 500px) {
+   
+    /*PART ONE*/
+
+    h2 {
+        font-family: 'Inconsolata', sans-serif;
+        font-style: Bold;
+        size: 24px;
+        color: #333333;
+        float: left;
+        padding-left: 0.7em;
+    }   
+
+    /*PART TWO*/
+
+    section {
+        position: relative;
+    }
+
+    .Scarecrow {
+        position: absolute;
+        z-index: 2;
+        margin: 1em;
+       
+    }
+
+    .picture {
+        width: 290px;
+        margin-top: 3em;
+        margin-left: 2em;
+        border: solid black;
+    }
+
+    /*PART THREE*/
+
+    .text-content {
+        position: absolute;
+        z-index: 1;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-family: 'Space Mono', sans-serif;
+        font-size: 46px;
+        font-weight: 700;
+        word-spacing: -3.5%;
+    }
+    
+    p {
+        font-family: 'Space Mono', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .first  {
+        padding-left: 0.5em;
+
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .second {
+        padding-left: 0.5em;
+    }
+
+    .third {
+        margin-top: 3em;
+        padding-left: 0.5em;
+    }
+
+    button {
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 14px;
+        font-style: bold;
+        color: #FFFFFF;
+        background-color: #333333;
+        text-align: center;
+        width: 216px;
+        height: 68px;
+    }
+
+  /*PART FOUR*/
+
+  body footer {
+    margin-top: 34em;
+  }
+    
+  footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+footer em {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+}
+
+
+
+
+/*FOR LAPTOPS AND COMPUTERS*/
+
+@media screen and (min-width: 992px) {
+
+    /*General Page*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } /*this helps to keep from having scrollbars*/
+   
+    /*PART ONE*/
+
+    h2 {
+        font-family: 'Inconsolata', sans-serif;
+        font-style: Bold;
+        size: 24px;
+        color: #333333;
+        float: left;
+    }
+
+    header {
+        margin: 2em;
+        padding-bottom: 2em;
+        z-index: 2;
+    }
+
+    header {
+        margin: 2em;
+        padding-bottom: 2em;
+        z-index: 2;
+    }
+    
+    /*PART TWO*/
+    
+    section {
+        display: flex;
+        height: 540px;
+        padding: 4em;
+        margin-top: 1em;
+        z-index: 1;
+        justify-content: center;
+        gap: 10em;
+    }
+    
+    .Scarecrow {
+        max-width: 100%; /* Image scales down if it has to, but never scales up*/
+        flex: 1;
+    }
+    
+    .picture {
+        width: 500px;
+    }
+    
+    /*PART THREE*/
+    
+    .text-content {
+        width: 720px;
+    }
+
+    .first {
+        padding-bottom: 2em;
+    }
+    
+    h1 {
+        font-family: 'Space Mono', sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+    }
+    
+    .second {
+        padding-bottom: 2em;
+    }
+
+    p {
+        font-family: 'Space Mono', sans-serif;
+        font-size: 24px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 13em;
+    }
+    
+    .third {
+        padding-top: 0.5em;
+    }
+
+    button {
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 14px;
+        font-style: bold;
+        color: #FFFFFF;
+        background-color: #333333;
+        text-align: center;
+        width: 216px;
+        height: 68px;
+    }
+    
+    /*PART FOUR*/
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    footer p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        color: #BDBDBD;
+    }
+    
+    footer em {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+}
+
