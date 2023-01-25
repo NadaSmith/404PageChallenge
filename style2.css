@@ -1,6 +1,6 @@
 /*FOR MOBILE PHONES*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
    
     /*PART ONE*/
 
@@ -108,7 +108,7 @@ footer em {
 
 /*FOR LAPTOPS AND COMPUTERS*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 992px) {
 
     /*General Page*/
 
